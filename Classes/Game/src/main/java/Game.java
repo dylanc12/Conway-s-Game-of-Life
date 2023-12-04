@@ -9,7 +9,6 @@
 public class Game {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
         Grid grid = new Grid(new int[][]{
             {0,0,0,0,0},
             {0,0,0,0,0},
@@ -18,6 +17,7 @@ public class Game {
             {0,0,0,0,0}
         });
         
-        grid.printGrid();
+        Tests tests = new Tests(grid);
+        tests.runTests();
     }
 }

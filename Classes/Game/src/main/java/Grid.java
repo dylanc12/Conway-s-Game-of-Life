@@ -14,6 +14,18 @@ public class Grid {
         this.grid = grid;
     }
     
+    public void setGrid(int[][] grid){
+        this.grid = grid;
+    }
+    
+    public void setElement(int row, int col, int val){
+        grid[row][col] = val;
+    }
+    
+    public int getElement(int row, int col){
+        return grid[row][col];
+    }
+    
     public void printGrid(){
         for(int i = 0; i < grid.length; i++){
             System.out.print("{");
