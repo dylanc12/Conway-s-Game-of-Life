@@ -20,7 +20,7 @@ public class Grid {
 
     }*/
 
-    public ArrayList<Integer> getView(int row, int col){
+    public int[][] getView(int row, int col){
         if(row == 0 && col == 0){
             int[][] view = new int[3][3];
         }
