@@ -8,7 +8,7 @@
  * @author dylancicone
  */
 public class Tests {
-    private Grid grid;
+    private final Grid grid;
     
     public Tests(Grid grid){
         this.grid = grid;
